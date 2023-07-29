@@ -52,7 +52,7 @@ If the issue persists, please refer to the error message displayed in the termin
 
 You can customize the behavior of the BadgeBOT application by modifying the following:
 
-- Adjust the interval at which the application checks for badge updates by changing the value passed to `setInterval` in the code. The default is set to 1 minute (`60000` milliseconds).
+- Adjust the interval at which the application checks for badge updates by changing the value passed to `setInterval` in the code. The default is set to 1 minute (`300000` milliseconds).
 - Modify the content of the initial Discord notification sent by modifying the `content` parameter in the `sendInitialDiscordNotification` function.
 - Customize the format or content of the Discord notification sent for new badge updates by modifying the `message` parameter in the `sendDiscordNotification` function.
 
