@@ -90,4 +90,4 @@ sendInitialDiscordNotification();
 runBadgeChecker();
 
 // Call the runBadgeChecker function every minute (adjust as needed)
-setInterval(runBadgeChecker, 60000);
+setInterval(runBadgeChecker, 300000);
